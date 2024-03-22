@@ -1,9 +1,9 @@
 # deep-learning-challenge
 
-Overview:
+Overview: <br/>
 The purpose of this analysis is to create a model that will help Alphabet Soup with selecting the applicants for funding with the best chance of success in their ventures.
 
-Results:
+Results: <br/>
 Data Preprocessing
 - The target variable is the "IS_SUCCESSFUL" column from the csv file.
 - The feature variables are the other columns except "IS_SUCCESSFUL."
@@ -14,5 +14,5 @@ Compiling, Training, and Evaluating the Model
 - I was not able to achieve the target model performance of 75%.
 - To increase the model performance, I dropped more columns, added more hidden nodes, and increased the number of epochs.
 
-Summary:
+Summary: <br/>
 The model has an accuracy of around 73% overall. To increase the prediction accuracy, we could use a model with greater correlation between input and output. This could be achieved by doing additional data cleaning, or using a model with different activation functions.
